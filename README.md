@@ -7,7 +7,7 @@ Project created on 2021-09-06
 Project Title: Bikeshare Project
 
 ### Description
-This project provides an interactive user experience to provide descriptive statistics on bikeshare in three cities.
+This project provides an interactive user experience to provide descriptive statistics on bikeshare in three cities, and display raw data to the user.
 
 ### Files used
 chicago.csv
