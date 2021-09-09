@@ -177,9 +177,9 @@ def station_stats(df):
 
         # TO DO: display most frequent combination of start station and end station trip
         # concatenating the start and end stations around ' and ' and determing the most common combination
-        df['comb_stations'] = df['Start Station'] + ' and ' + df['End Station']
-        comb_stations = df['comb_stations'].mode()[0]
-        print("\nMost common start and end station combination: ", comb_stations)
+        df['combined_stations'] = df['Start Station'] + ' and ' + df['End Station']
+        combined_stations = df['combined_stations'].mode()[0]
+        print("\nMost common start and end station combination: ", combined_stations)
     
     except IndexError:
         print("IndexError occurred, skipping this part of the program.")
