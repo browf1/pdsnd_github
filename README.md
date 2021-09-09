@@ -15,5 +15,5 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-Udacity course
+Udacity course - Programming for Data Science with Python
 
